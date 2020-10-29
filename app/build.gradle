@@ -74,7 +74,7 @@ dependencies {
     implementation 'me.jessyan:art-imageloader-glide:2.5.0'
 
     //test
-    testImplementation rootProject.ext.dependencies["junit"]
+    testImplementation 'junit:junit:4.13.1'
     debugImplementation rootProject.ext.dependencies["canary-debug"]
     releaseImplementation rootProject.ext.dependencies["canary-release"]
     testImplementation rootProject.ext.dependencies["canary-release"]
